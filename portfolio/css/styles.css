@@ -1,0 +1,161 @@
+/*<------------------------------------------------------------->
+|																|	
+|																|
+|	INLEIDING:													|
+|																|
+|	1= Body	(Algemene pagina)									|
+|	2= Menu	(home menu)											|
+|	3= Main ( 4= AD's)											|
+|	4= AD's														|
+|																|
+<------------------------------------------------------------->*/
+
+
+	/* "*=alle elementen" */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+	/* ---------------------- 1= BODY Start ----------------------*/
+body{
+	background-image: url(../img/background.jpg);
+	background-color: red;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+
+}
+	/*---------------------- 1= BODY End ----------------------*/
+
+
+	/*---------------------- 2= MENU Start ----------------------*/
+	/* De menu staat in een header*/
+header{
+	display: flex;
+}
+nav.mainmenu{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 400px;
+}
+	/* Li zijn de buttons */
+li.over{
+	height: auto;
+	width: 105px;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.75);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+li.thuis{
+	height: auto;
+	width: 110px;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.75);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+li.cv{
+	height: auto;
+	width: 130px;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.75);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+li.beroep{
+	height: auto;
+	width: 120px;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.75);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+	/* Li hover zijn de hover buttons */
+li.over:hover{
+	background-color: grey;
+	opacity: 0.5;
+
+}
+li.thuis:hover{
+	background-color: grey;
+	opacity: 0.5;
+}
+
+li.cv:hover{
+	background-color: grey;
+	opacity: 0.5;
+}
+	/* a.textdecor haalt de text decoratie weg en maakt de letters zwart */
+a.textdecor{
+	text-decoration: none;
+	color: black;
+}
+	/* De i staat voor icon's en in dit geval is dit alleen de hover*/
+i.slow-spin:hover {
+  -webkit-animation: fa-spin 6s infinite linear;
+  animation: fa-spin 6s infinite linear;
+}
+	/*---------------------- 2= MENU End ----------------------*/
+
+	/*---------------------- 3=MAIN START ----------------------*/
+main.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+article.pagebox{
+	background-color: white;
+	color: black;
+	height: auto;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border-radius: 20px;
+	opacity: 0.8;
+	order: 1;
+	flex-wrap: wrap;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+h3.marginh3{
+	margin: 10px;
+}
+p.margin2{
+	margin: 10px;
+}
+p.margin{
+	margin: 10px;
+}
+p.marginbold{
+	margin: 10px;
+	font-weight: bold;
+}
+i.marginicon{
+	margin: 10px;
+}
+img.arbor{
+	border-radius: 10px;
+	height: auto;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+	/*---------------------- 3=MAIN END ----------------------*/
+
+
+

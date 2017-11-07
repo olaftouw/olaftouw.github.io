@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+nav.mainmenu{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 400px;
+}
+li.over{
+	height: auto;
+	width: 105px;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.75);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+li.thuis{
+	height: auto;
+	width: 110px;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.75);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+li.nieuws{
+	height: auto;
+	width: 120px;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.75);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+li.over:hover{
+	background-color: grey;
+	opacity: 0.5;
+
+}
+li.thuis:hover{
+	background-color: grey;
+	opacity: 0.5;
+}
+
+li.nieuws:hover{
+	background-color: grey;
+	opacity: 0.5;
+}
+
+a.textdecor{
+	text-decoration: none;
+	color: black;
+}
+.slow-spin:hover {
+  -webkit-animation: fa-spin 6s infinite linear;
+  animation: fa-spin 6s infinite linear;
+}
