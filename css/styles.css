@@ -154,6 +154,10 @@ img.arbor{
 	margin-right: auto;
 	display: block;
 }
+img.cv{
+	height: auto;
+	width: 100%;
+}
 
 	/*---------------------- 3=MAIN END ----------------------*/
 
